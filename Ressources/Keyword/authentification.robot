@@ -13,7 +13,7 @@ Authentification avec username et password valid
     Input Password    ${password}    ${passwordAdmin}
     Wait Until Element Is Visible    ${seconnecter}
     Click Button      ${seconnecter}
-    Title Should Be    OrangeHRM
+    Wait Until Page Contains    Employees on Leave Today
 
 Authentification avec username et password invalid
     Wait Until Element Is Visible    ${user}

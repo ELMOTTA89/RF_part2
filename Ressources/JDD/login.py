@@ -1,5 +1,6 @@
 administrateur= "Admin"
-passwordAdmin= "Admin123"
+passwordAdmin= "admin123"
 
 userinvalid= "AADMIN"
 passwordinvalid= "admin123456"
+
